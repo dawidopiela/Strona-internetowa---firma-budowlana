@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+ 
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ body{
+     min-height: 1000px;
+ }
+
+ p{
+     font-weight: 300;
+     color: black; 
+ }
+.tlo img{
+    max-width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+ .banner{
+   
+     width: 100%;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .banner .content{
+      position: absolute;
+     text-align: center;
+     font-size: 30px;
+     
+ }
+
+ .banner .content h1{
+     font-weight: bold;
+ }
+
+ .banner .content p{
+     font-weight: bold;
+ }
+
+ .btn{
+     font-size: 1.2rem;
+     color: white;
+     background: rgb(142, 136, 136);
+    display: inline-block;
+    padding:  10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border-radius:4px;
+
+ }
+
+ .btn:hover{
+     letter-spacing: 10px;
+     cursor: pointer;
+ }
+
+ header{
+  position: fixed;
+     top:0;
+     left:0;
+     width: 100%;
+     padding: 40px 100px;
+     z-index: 10000;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     transition: 0.5s;
+ }
+
+header.sticky{
+    background: rgb(255, 255, 255);
+    padding: 40px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 05);
+}
+
+  header .logo{
+ color:rgb(12, 12, 12);
+ font-weight: bold;
+ font-size: 2rem;
+ text-decoration: none;
+ 
+ }
+
+header.sticky .logo{
+    color: rgb(18, 18, 20);
+}
+
+ header .logo span{
+     color: red;
+     font-weight: bold;
+ }
+
+ header.sticky .navigation li a{
+     font-weight: bolder;
+     
+ }
+
+ header .navigation {
+position: relative;
+display: flex;
+
+ }
+
+ header .navigation li{
+     list-style: none;
+     margin-left: 30px;
+     
+ }
+
+ header .navigation li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+ }
+
+.about{
+    padding-bottom: 30px;
+}
+ .row{
+     display: flex;
+     justify-content: center;
+ }
+
+.row .col50 {
+   
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.col50 div{
+    
+    display: flex;
+    justify-content: center;
+   
+}
+
+.titleText span{
+    font-size: 2em;
+}
+
+.gallery{
+    width: 100%;
+    height: 100%;
+    
+}
+ 
+.napis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+ 
+
+.titlegallery span {
+    font-size: 2em;
+}
+
+.pictureframe{
+    width: 100%;
+    
+    
+    
+}
+
+.pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-self: center;
+    justify-self: center;
+    grid-template-areas: 
+    "zdjecie1 zdjecie2 zdjecie3"
+    "zdjecie4 zdjecie5 zdjecie6";
+   
+    
+}
+
+
+.zdjecie1{
+    width: 400px;
+    height: 250px;
+    background-color: slategrey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+
+.zdjecie2{
+    width: 400px;
+    height: 250px;
+    background-color: slategrey;
+    border-radius: 10px;  
+    display: grid;
+    margin-bottom: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.zdjecie3{
+    width: 400px;
+    height: 250px;
+    background-color: slategrey;
+    border-radius: 10px;
+    display: grid;
+    margin-bottom: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.zdjecie4{
+    width: 400px;
+    height: 250px;
+    background-color: slategrey;
+    border-radius: 10px;
+    display: grid;
+    margin-bottom: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.zdjecie5{
+    width: 400px;
+    height: 250px;
+    background-color: slategrey;
+    border-radius: 10px;
+    display: grid;
+    margin-bottom: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.zdjecie6{
+    width: 400px;
+    height: 250px;
+    background-color: slategrey;
+    border-radius: 10px;
+    display: grid;
+    margin-bottom: 20px;
+    align-self: center;
+    justify-self: center;
+}
